@@ -31,12 +31,9 @@
   <h2>Support</h2>
   <p>
     Open source in all it's glory is amazing and I personally love to share the knowledge I've accumulated over my years programming 
-    and doing webdevelopment. A couple of <em>$dollars</em> a month would help greatly to incentivize having packages up to date 
-    and the tools and services sometimes needed to be able to do so.
-  </p>
-  <p>
-    While it's 100% not required, if you find this project beneficial to you and your work, any contribution would be highly appreciated.
-  </p>
+    and doing webdevelopment. A small tip helps greatly to incentivize having packages up to date and the tools and services sometimes 
+    needed to be able to do so. While it's 100% not required, if you find this project beneficial to you and your work, any contribution 
+    would be highly appreciated.
   <p>
     <External class="button" href="https://www.paypal.me/jenshjalmarsson">https://www.paypal.me/jenshjalmarsson</External>
   </p>
