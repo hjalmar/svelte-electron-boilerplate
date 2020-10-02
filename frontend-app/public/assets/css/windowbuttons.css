@@ -1,0 +1,53 @@
+#windowbuttons{
+  right: 15rem;
+  display: flex;
+  align-items: center;
+  height: var(--titlebar-height);
+  justify-self: center !important;
+  -webkit-user-drag: none;
+}
+
+#windowbuttons > button{
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: red;
+  overflow: hidden;
+  text-indent: -99999px;
+  margin-left: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  border-top: 1px solid rgba(255, 255, 255, .4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  border: none;
+  /* transition: box-shadow .3s; */
+}
+
+/* #windowbuttons > a::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  filter: blur(3px);
+} */
+
+#windowbuttons > a:hover{
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+}
+
+#windowbuttons > a:hover::before{
+  background: rgba(0, 0, 0, .4);
+}
+
+#windowbuttons > .minimize{
+  background-color: rgb(21, 197, 159);
+}
+#windowbuttons > .maximize{
+  background-color: rgb(212, 192, 13);
+}
+#windowbuttons > .close{
+  background-color: hsl(345, 81%, 43%);
+}

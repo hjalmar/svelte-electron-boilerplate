@@ -1,0 +1,52 @@
+nav#main-nav ul{
+  position: absolute;
+  text-transform: capitalize;
+  list-style: none;
+}
+nav#main-nav li{
+  position: relative;
+}
+nav#main-nav, nav#main-nav > ul, nav#main-nav li{
+  height: 100%;
+  z-index: 1;
+}
+nav#main-nav > ul{
+  display: flex;
+  font-size: 14rem;
+}
+nav#main-nav > ul > li{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav#main-nav li > ul{
+  padding: 10rem 0;
+  top: calc(100% + 3px);
+  left: 0;
+  width: 250px;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--bg-color);
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+}
+nav#main-nav li > ul > li:hover{
+  background-color: rgba(0, 0, 0, 0.08);
+}
+nav#main-nav li > ul li ul{
+  opacity: 0;
+  left: 100%;
+  top: 0;  
+}
+
+nav#main-nav li.show > ul, nav#main-nav li.show > ul li:hover > ul{
+  opacity: 1;
+  pointer-events: all;
+  z-index: 100;
+}
+
+nav#main-nav a, nav#main-nav span{
+  display: block;
+  text-decoration: none;
+  padding: 5rem 10rem;
+}

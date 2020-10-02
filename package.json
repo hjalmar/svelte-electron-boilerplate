@@ -1,0 +1,54 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "main": "./electron.js",
+  "description": "Electron boilerplate",
+  "author": "Jens Hjalmarsson",
+  "license": "MIT",
+  "scripts": {
+    "electron": "nodemon --watch ./frontend-app -e js,mjs,json,css --exec electron ./electron/electron.js --dev",
+    "electron:devtools": "nodemon --watch ./frontend-app -e js,mjs,json,css --exec electron ./electron/electron.js --dev --devtools",
+    "build": "cd frontend-app && npm run build && cd .. && electron-builder"
+  },
+  "productName": "Svelte Electron Boilerplate",
+  "build": {
+    "appId": "com.jensa.svelte_electron_boilerplate",
+    "asar": true,
+    "files": [
+      "package.json",
+      {
+        "from": "electron",
+        "to": "",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "frontend-app/public",
+        "to": "public",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "electron/assets/icon.png"
+    },
+    "nsis": {
+      "installerSidebar": "electron/assets/installerSidebar.bmp",
+      "uninstallerSidebar": "electron/assets/installerSidebar.bmp",
+      "installerIcon": "electron/assets/icon.ico",
+      "uninstallerIcon": "electron/assets/icon.ico",
+      "uninstallDisplayName": "Svelte Electron Boilerplate",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1"
+  }
+}

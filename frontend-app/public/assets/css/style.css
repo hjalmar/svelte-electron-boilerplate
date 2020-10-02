@@ -1,0 +1,52 @@
+@import "variables.css";
+@import "reset.css";
+@import "scrollbar.css";
+@import "typography.css";
+@import "titlebar.css";
+@import "windowbuttons.css";
+@import "buttons.css";
+@import "navigation.css";
+
+::selection{
+  background-color: var(--accent-color);
+}
+
+#app{
+  display: grid;
+  grid-template-rows: var(--titlebar-height) auto;
+  width: 100%;
+  height: 100vh;
+}
+
+main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 80rem 60rem;
+  overflow-y: auto;
+}
+
+div#main-content{
+  max-width: var(--max-width);
+}
+
+em{
+  position: relative;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--em-color, --color);
+  z-index: 10;
+  white-space: nowrap;
+}
+
+em::before{
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  z-index: 1;
+}

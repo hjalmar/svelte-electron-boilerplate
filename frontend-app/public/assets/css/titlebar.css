@@ -1,0 +1,37 @@
+#titlebar{
+  position: relative;
+  display: flex;
+  padding: 2rem 10rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10rem rgba(0, 0, 0, .1);
+  border-top: 1px solid rgba(255, 255, 255, 0.055);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0812);
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+#titlebar > .title{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--titlebar-font-size);
+  -webkit-app-region: drag;
+}
+
+#titlebar > *{
+  position: relative;
+  z-index: 2;
+}
+
+#titlebar > * *{
+  -webkit-app-region: no-drag;
+}

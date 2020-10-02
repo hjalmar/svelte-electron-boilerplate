@@ -1,0 +1,28 @@
+/* general styles */
+:root{
+  --scale: 1px;
+  /* colors */
+  --accent-color: rgba(0, 255, 179, 0.548);
+  --button-color: rgb(204, 208, 219);
+  
+  /* titlebar */
+  --titlebar-height: 35px;
+  --titlebar-font-size: 14rem;
+
+  /* styles */
+  --max-width: 800px;
+}
+
+/* dark theme */
+[data-theme="dark"]{
+  --color: rgb(71, 85, 116);
+  --bg-color: rgb(31, 34, 43);
+  --em-color: hsl(221, 24%, 77%);
+}
+
+/* light theme */
+[data-theme="light"]{
+  --color: rgb(34, 41, 56);
+  --bg-color: rgb(204, 208, 219);
+  --button-color: var(--color);
+}

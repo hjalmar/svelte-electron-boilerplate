@@ -1,0 +1,20 @@
+.button{
+  display: inline-block;
+  padding: 10rem 25rem;
+  border-radius: 4rem;
+  background-color: var(--accent-color);
+  color: var(--button-color);
+  border: none;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: box-shadow .15s, transform .15s;
+}
+
+.button:hover{
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.button:active{
+  transform: translateY(2rem) scale(.98);
+  box-shadow: 0 1.5rem 8rem rgba(0, 0, 0, 0.26);
+}

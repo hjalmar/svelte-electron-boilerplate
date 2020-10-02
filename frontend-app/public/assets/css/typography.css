@@ -1,0 +1,30 @@
+
+p, pre, blockquote{
+  margin: 20rem 0;
+}
+pre{
+  font-size: 14rem;
+}
+h1{
+  font-size: 50rem;
+}
+h2{
+  font-size: 40rem;
+}
+h3{
+  font-size: 30rem;
+}
+h4{
+  font-size: 25rem;
+}
+h5{
+  font-size: 23rem;
+}
+h6{
+  font-size: 19rem;
+}
+p{
+  font-size: 22rem;
+  font-weight: 300;
+  line-height: 25rem;
+}
