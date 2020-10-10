@@ -72,3 +72,5 @@ Additional support like bug reporting and feature requests are also highly encou
 package repository that it may concern. Cheers!
 
 https://github.com/hjalmar
+
+![Svelte-Electron-Boilerplate preview](preview.png?raw=true "In action preview")
