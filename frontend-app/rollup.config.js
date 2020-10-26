@@ -36,7 +36,7 @@ const outPath = 'public/build/';
 export default {
 	input: 'src/main.js',
 	output: {
-		sourcemap: !(!production),
+		sourcemap: !production,
 		format: 'iife',
 		name: 'app',
 		file: path.join(outPath, 'bundle.js')
