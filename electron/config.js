@@ -12,6 +12,7 @@ const config = {
   disableVsync: false,
   showMenu: false,
   // override devtools cli argument
+  // NOTE: that sourcemap erros in electron probably is due to issues regarding this https://github.com/electron/electron/issues/22996
   overrideDevTools: false,
   disable_x_frame: false,
   // electron browserwindow settings
