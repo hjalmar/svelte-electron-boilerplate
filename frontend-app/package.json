@@ -13,7 +13,7 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "enums-manager": "^1.0.0",
-    "hotkeys-manager": "^1.0.1",
+    "hotkeys-manager": "^1.0.2",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
