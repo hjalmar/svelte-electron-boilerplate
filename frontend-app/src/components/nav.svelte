@@ -81,7 +81,7 @@
     <li>
       <span>help</span>
       <ul>
-        <li><External href="https://githum.com/hjalmar/svelte-electron-boilerplate">Visit github page</External></li>
+        <li><External href="https://github.com/hjalmar/svelte-electron-boilerplate">Visit github page</External></li>
       </ul>
     </li>
   </ul>
