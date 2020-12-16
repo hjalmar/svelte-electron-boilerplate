@@ -1,5 +1,5 @@
 // libraries
-import Router, { router, location as RouterLocation } from 'svelte-standalone-router';
+import { context, location as RouterLocation } from 'svelte-standalone-router';
 
 // stores
 import { title } from '~/stores/application.js';
@@ -20,7 +20,7 @@ const win = location.pathname.match(/^(\/[a-z]\:)/i);
 const base = win ? win[1] : '/';
 
 // create and initialize router
-export const app = router({
+export const app = context({
   initial: globalThis.electron ? base : location.pathname,
   base
 });
