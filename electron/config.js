@@ -34,7 +34,6 @@ const config = {
     webPreferences: {
       contextIsolation: true,
       worldSafeExecuteJavaScript: true,
-      // nodeIntegration: false,
       preload: path.join(__dirname, 'preload.js')
     },
   }

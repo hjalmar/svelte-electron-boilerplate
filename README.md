@@ -66,7 +66,7 @@ Open source in all it's glory is amazing and I personally love to share the know
 and doing webdevelopment. A small tip helps greatly to incentivize having packages up to date 
 and the tools and services sometimes needed to be able to do so. While it's 100% not required, if you find this project beneficial to you and your work, any contribution would be highly appreciated.
 
-https://www.paypal.me/jenshjalmarsson
+[Tip on paypal](https://www.paypal.com/donate?hosted_button_id=N7CCZ2K5L2GV6)
 
 Additional support like bug reporting and feature requests are also highly encouraged. Do so in respective 
 package repository that it may concern. Cheers!
