@@ -14,16 +14,16 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "enums-manager": "^1.0.0",
-    "hotkeys-manager": "^1.0.2",
+    "hotkeys-manager": "^1.0.3",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.38.3"
+    "svelte": "^3.46.3",
+    "svelte-standalone-router": "^1.0.25"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0",
-    "svelte-standalone-router": "^1.0.24"
+    "sirv-cli": "^1.0.0"
   }
 }
